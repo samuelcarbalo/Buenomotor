@@ -1,0 +1,40 @@
+PASOS PARA EJECUTAR LA APLICACION
+
+- para esto es necesario que descarguemos una aplicacion llamada xampp, ejecutamos el instalador, seguimos las instucciones de instalacion y personalizamos
+ las preferencias como lo es el idioma, una vez finalicemos la instalacion, procederemos a abrila
+
+- Al iniciar xampp debemos activar los botones de Apache y MySql
+
+
+PASOS PARA INSTALAR LA BASE DE DATOS
+
+1. para instalar la base de datos debemos tener xampp iniciado y presionar el boton admin de mysql o ingresar el link:  http://localhost/phpmyadmin/index.php 
+   en el navegador
+
+2. debe dirigirse a la carpeta llamada (Base de datos) en donde encontrara un archivo llamado formulario.sql en el phpmyadmin presiona sql y arrastra el archivo formulario.sql y le da en continuar
+
+
+PASOS PARA INICIAR LA APLICACION (Buenomotor)
+
+
+1. La carpeta llamada (Buenomotor.es) debe copiarla y pegarla en la carpeta C:/xampp/htdocs/ 
+
+2. Tener iniciado xampp
+
+3. abrir el navegador y escribir el siguiente link http://localhost/Buenomotor.es/index.php
+
+4. la conexion a base de datos se encuentra en la carpeta includes (conexion.php) y tiene la siguiente configuracion
+   El localhost el usuario es root y no hay contraseña, verifique si usted la tiene diferente y configurela
+   (host="localhost", user="root", password="", db="formulario")
+
+5. La pestaña (buzon) contiene el formulario php que inserta los datos a una base de datos
+
+6. Contenido de las carpetas
+   En la carpeta llamada base de datos, se encuentra el sql de la base de datos
+   En views se encuentran todas las vistas de la app web
+   En la carpeta model se encuentran la funcion registrar.php
+   En la carpeta scripts se encuentan todos los js usados
+   En la carpeta images se encuentran todas la imagenes usadas
+   En la carpeta css se encuentran todos los estilos de la app web
+   En la carpeta fonts se encuentran todas las fuentes usadas
+
